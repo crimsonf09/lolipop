@@ -2,6 +2,7 @@ import pandas as pd
 
 class Strategy:
     def generate_signal(self, df: pd.DataFrame):
+        print("Generating signal")
         df = df.copy()
 
         df.loc[:, "ma_fast"] = df["close"].rolling(window=10, min_periods=10).mean()
