@@ -5,3 +5,7 @@ numpy
 scikit-learn
 joblib
 python-dotenv
+backtrader 
+pandas 
+yfinance 
+matplotlib
